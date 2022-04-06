@@ -8,6 +8,14 @@
 
 * While there is likely some additional data that could provide better detail into what contributes to the variance on the mpg, the MechaCar linear model still provides relatively effective results in regards to that question.  With an r-squared value of 0.7149, you can assume that the results of this linear model are 71.5% accurate, which is good, but could probably be better. 
 
+## Summary Statistics on Suspension
+![TotalSummary](https://user-images.githubusercontent.com/93561592/161884525-9e9aaf64-97a2-4961-86f3-f69ad0d0cb08.PNG)
+
+![LotSummary](https://user-images.githubusercontent.com/93561592/161884451-23492919-31b3-4c45-be1f-07d97a0208bb.PNG)
+
+* The tables above show that overall PSI variance across all lots is below the 100 PSI threshold, and within the design specifications.  However, when you look at the results of each lot individually, the PSI variance on Lot3 is 170.29 which is far above the design specifications and suggests that there are problems on this lot that need to be addressed.
+
+
 
 
 
