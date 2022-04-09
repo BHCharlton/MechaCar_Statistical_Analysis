@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 ## Linear Regression to Predict MPG
-* As shown below, there are two variables, along with the intercept, that demonstrate a non-random variance on the mpg in our dataset, "vehicle_length" and "ground_clearance."  This can be determined by observing the "Pr(>|t|)" value which represents the probability that each coefficient contributes a random amount of variance to the linear model.  The smaller the value, the greater the likelyhood that the corresponding variable plays a role in the variance of the mpg.  In addition, the intercept has some statistical significance as well, indicating that there are other variables that may also contribute to variace on the mpg and could provide useful information.
+* As shown below, there are two variables, along with the intercept, that demonstrate a non-random variance on the mpg in our dataset, "vehicle_length" and "ground_clearance."  This can be determined by observing the "Pr(>|t|)" value which represents the probability that each coefficient contributes a random amount of variance to the linear model.  The smaller the value, the greater the likelihood that the corresponding variable plays a role in the variance of the mpg.  In addition, the intercept has some statistical significance as well, indicating that there are other variables that may also contribute to variance on the mpg and could provide useful information.
 * The linear regression summary returned a p-value of 5.35 x 10^(-11) which is lower than even an extreme level of significance, therefore the slope of the linear model is not zero, and the null hypothesis should be rejected.  This can be used to assume there is some correlation between the variables and mpg that is subject to more than just random chance.
 
 ![LRCedit](https://user-images.githubusercontent.com/93561592/161452809-8dbe4a99-2202-4560-a7a0-77d084849e77.png)
@@ -18,22 +18,25 @@
 ## T-Tests on Suspension Coils
 ##### Cumulative Results
 ![TTestAll](https://user-images.githubusercontent.com/93561592/162588713-eb8c06f8-7dc5-4ed3-bb34-656a703b827b.PNG)
-* Assuming our significance level is the common 0.05 percent, the p-value(0.06) from our T-Test results across all lots is not low enough to reject the null hypothesis, and thus the two means are statistically similar. 
+* Assuming our significance level is the common 0.05 percent, the p-value(0.06) from our t-Test results across all lots is not low enough to reject the null hypothesis, and thus the two means are statistically similar. 
 
 
 ##### Individual Lot Results
 ![TTestSubsets](https://user-images.githubusercontent.com/93561592/162589018-23f6387c-3c66-438f-a0d2-608e625d53d7.PNG)
-* When performing T-Tests for each lot inividually, the p-values for Lot1(1.00) and Lot2(0.61) are each higher than our significance level of 0.05, therefore we would not reject the null hypothesis in either case and can state that the two means are statistically similar.
-* Lot3 is the exception here.  Unlike Lot1 and Lot2, the T-Test for Lot3 yields a p-value of 0.042 which is lower than our significance level of 0.05. Thus, there may be just enough statistical evidence to reject the null hypothesis for Lot3, and we could state the results may need to be discarded or futher evaluated.
+* When performing t-Tests for each lot individually, the p-values for Lot1(1.00) and Lot2(0.61) are each higher than our significance level of 0.05, therefore we would not reject the null hypothesis in either case and can state that the two means are statistically similar.
+* Lot3 is the exception here.  Unlike Lot1 and Lot2, the t-Test for Lot3 yields a p-value of 0.042 which is lower than our significance level of 0.05. Thus, there may be just enough statistical evidence to reject the null hypothesis for Lot3, and we could state the results may need to be discarded or further evaluated.
 
-## Study Design: NechaCar vs Competition
-
+## Study Design: MechaCar vs Competition
+With gas prices soaring to historic levels, those looking to purchase a car must take many factors into consideration.  Many consumers that would have ultimately preferred to purchase a car are now having to turn to different options such as public transportation or ride-sharing.  Thus, it will be very important for auto companies to design and manufacture cars that are affordable up-front, and will provide an economical, reliable means of transportation that justifies the purchase of a new car.
 
 #### Metrics for evaluation
+It will be important to thoroughly evaluate MechaCar's fuel efficiency in MPG in comparison to competitors' vehicles in the same class.
 
 #### Null hypothesis
+MechaCar's average fuel efficiency is statistically similar to competitor's vehicles in the same class.
 
 #### Statistical testing
+Two-sample t-Testing would probably be the most effective choice for this analysis
 
 #### Necessary data
 
