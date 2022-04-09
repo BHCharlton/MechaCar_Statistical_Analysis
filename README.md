@@ -36,10 +36,10 @@ It will be important to thoroughly evaluate MechaCar's fuel efficiency in MPG in
 MechaCar's average fuel efficiency is statistically similar to competitor's vehicles in the same class.
 
 #### Statistical testing
-Two-sample t-Testing would probably be the most effective choice for this analysis
+Two-sample t-Testing would probably be the most effective choice for this analysis.
 
 #### Necessary data
-
+We need to gather all data that may significantly contribute vehicle fuel efficiency (i.e. length, width, spoiler angle, ground clearance, AWD) and MPG for MechaCar prototypes, as well as all competitor vehicles to be evaluated.
 
 
 
