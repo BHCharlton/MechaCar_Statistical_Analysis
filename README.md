@@ -26,7 +26,16 @@
 * When performing T-Tests for each lot inividually, the p-values for Lot1(1.00) and Lot2(0.61) are each higher than our significance level of 0.05, therefore we would not reject the null hypothesis in either case and can state that the two means are statistically similar.
 * Lot3 is the exception here.  Unlike Lot1 and Lot2, the T-Test for Lot3 yields a p-value of 0.042 which is lower than our significance level of 0.05. Thus, there may be just enough statistical evidence to reject the null hypothesis for Lot3, and we could state the results may need to be discarded or futher evaluated.
 
+## Study Design: NechaCar vs Competition
 
+
+#### Metrics for evaluation
+
+#### Null hypothesis
+
+#### Statistical testing
+
+#### Necessary data
 
 
 
