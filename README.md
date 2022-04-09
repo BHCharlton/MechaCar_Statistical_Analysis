@@ -15,6 +15,18 @@
 
 * The tables above show that overall PSI variance across all lots is below the 100 PSI threshold, and within the design specifications.  However, when you look at the results of each lot individually, the PSI variance on Lot3 is 170.29 which is far above the design specifications and suggests that there are problems on this lot that need to be addressed.
 
+## T-Tests on Suspension Coils
+##### Cumulative Results
+![TTestAll](https://user-images.githubusercontent.com/93561592/162588713-eb8c06f8-7dc5-4ed3-bb34-656a703b827b.PNG)
+* Assuming our significance level is the common 0.05 percent, the p-value(0.06) from our T-Test results across all lots is not low enough to reject the null hypothesis, and thus the two means are statistically similar. 
+
+
+##### Individual Lot Results
+![TTestSubsets](https://user-images.githubusercontent.com/93561592/162589018-23f6387c-3c66-438f-a0d2-608e625d53d7.PNG)
+* When performing T-Tests for each lot inividually, the p-values for Lot1(1.00) and Lot2(0.61) are each higher than our significance level of 0.05, therefore we would not reject the null hypothesis in either case and can state that the two means are statistically similar.
+* Lot3 is the exception here.  Unlike Lot1 and Lot2, the T-Test for Lot3 yields a p-value of 0.042 which is lower than our significance level of 0.05. Thus, there may be just enough statistical evidence to reject the null hypothesis for Lot3, and we could state the results may need to be discarded or futher evaluated.
+
+
 
 
 
